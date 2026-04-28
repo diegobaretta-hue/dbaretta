@@ -1,81 +1,51 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     margin: 0;
     background: #f4f4f4;
+    text-align: center;
 }
 
-/* NAVBAR */
 nav {
-    background: #111;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 30px;
-    align-items: center;
+    background: #222;
+    padding: 15px;
 }
 
 nav a {
     color: white;
-    margin-left: 15px;
+    margin: 10px;
     text-decoration: none;
-    font-weight: bold;
 }
 
 nav a:hover {
-    color: #00ffcc;
+    color: yellow;
 }
 
-/* HEADER */
 header {
-    text-align: center;
-    padding: 40px;
-    background: linear-gradient(to right, #111, #444);
+    background: #333;
     color: white;
+    padding: 30px;
 }
 
-/* CARDS */
-.card {
-    background: white;
-    margin: 20px auto;
-    padding: 20px;
-    width: 60%;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-/* TABLE */
 table {
-    width: 70%;
-    margin: 20px auto;
+    margin: auto;
     border-collapse: collapse;
+    width: 80%;
     background: white;
 }
 
 th, td {
-    padding: 12px;
-    border: 1px solid #ddd;
+    padding: 10px;
+    border: 1px solid black;
 }
 
-/* FORM */
 form {
-    width: 50%;
-    margin: 20px auto;
+    width: 60%;
+    margin: auto;
     display: flex;
     flex-direction: column;
 }
 
 input, textarea {
-    margin: 10px 0;
+    margin: 10px;
     padding: 10px;
-}
-
-input[type="submit"] {
-    background: #111;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background: #00cc99;
 }
